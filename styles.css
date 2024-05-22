@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(./Recursos/Fondo\ .jpg) ;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-size: cover;
+}
+
+.container {
+    background-color: #f1f1f1 ;
+    border-radius: 20px;
+    
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    width: 35vw;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    color: #1C4859;
+    gap: 10px;
+    padding: 15px;
+}
+
+button{
+    border: 0;
+    background-color: #659FA6 ;
+    border-radius: 20px;
+    height: 4vh;
+    color: #F2EADF;
+    outline: none;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.task button {
+    margin-left: 10px;
+    background-color:  #308C83 ; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task button.completed {
+    background-color: #659FA6 ; 
+}
+p{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: #F2EED8;
+    background-color: #1D4859;
+    height: 5vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
